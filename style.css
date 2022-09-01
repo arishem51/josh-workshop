@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+:root {
+  --color-green: hsl(160deg, 100%, 30%);
+  --color-gold: hsl(45deg, 100%, 50%);
+  --color-gold2: hsl(45deg, 100%, 40%);
+  --color-black: hsl(0deg, 0%, 0%);
+  --color-black2: hsl(0deg, 0%, 10%);
+  --color-gray: hsl(0deg, 0%, 30%);
+  --color-gray2: hsl(0deg, 0%, 40%);
+  --color-gray3: hsl(0deg, 0%, 60%);
+  --color-white: hsl(0deg, 0%, 100%);
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-96: 96px;
+  --space-128: 128px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  margin-bottom: var(--space-32);
+}
+
+.intro-chunk > p {
+  margin-bottom: var(--space-16);
+  max-width: 300px;
+}
+
+header {
+  padding: var(--space-32) 0;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  border-top: 5px solid var(--color-gray2);
+  background-color: var(--color-gray3);
+  padding: var(--space-64) 0;
+}
+
+.max-width-wrapper {
+  max-width: 700px;
+  background-color: var(--color-white);
+  margin: 0 auto;
+}
+
+.card,
+.intro-chunk {
+  padding-left: var(--space-24);
+}
+
+.card {
+  border-bottom: 5px solid var(--color-gray2);
+  padding-bottom: var(--space-24);
+  padding-right: var(--space-32);
+  padding-top: var(--space-8);
+}
+
+.indented-heading {
+  padding: var(--space-16) var(--space-32);
+  background-color: var(--color-gold);
+  width: fit-content;
+  border-bottom: var(--space-8) solid var(--color-gold2);
+  margin-left: -32px;
+}
+
+section p {
+  margin-top: var(--space-16);
+}
